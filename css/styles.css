@@ -492,11 +492,50 @@ progress {
 }
 
 .btn-nav {
-  display: flex;
+  display: flexbox;
+  align-self: center;
   column-gap: 20px;
   background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.profile-w {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.woman-img {  
+  width: 200px;
+  height: 200px;
+}
+
+.data-profile {
+  color: grey;
+  background-color: var(--bs-gray-300);
+  margin-left: 200px;
+  width: 70%;
+  padding: 10px 10px;
+  border: 1px solid var(--bs-gray);
+  border-radius: 5px;
+}
+
+.section-data {
+  margin-left: 200px;
+  width: 70%;
+  padding: 30px 30px;
+  border: 1px solid var(--bs-gray);
+  border-radius: 5px;
+}
+
+#register {
+  margin-left: 100px;
+  columns: 2;
+}
+
+.input-profile {
+  width: 250px;
 }
 
 .display-1 {
